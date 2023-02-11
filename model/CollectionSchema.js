@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const Collections = new Schema({
-    Collection: String,
+    CollectionName: String,
     image: String
 });
 
