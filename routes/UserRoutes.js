@@ -6,3 +6,5 @@ const LoginUser = require("../controller/LoginUser");
 
 UserRouter.post("/register",RegisterUser);
 UserRouter.post("/login",LoginUser);
+
+module.exports = UserRouter;
